@@ -19,8 +19,8 @@ int main() {
     averageMarks = total / subjects;
     
    
-    printf("Total Marks of %d Subjects = %0.4f\n",subjects,total);  
-    printf("Average Marks = %.4f\n", averageMarks);  
+    printf("Total Marks of %d Subjects = %0.2f\n",subjects,total);  
+    printf("Average Marks = %.2f\n", averageMarks);  
      
     return 0;  
 } 
