@@ -5,7 +5,24 @@
 #include <stdio.h>
 
 int main() {
-  
-  return 0;
-}
+    int subjects, i;  
+    float marks, total=0.0f, averageMarks;
+   
+    printf("Enter number of subjects\n");  
+    scanf("%d", &subjects);  
+   
+    printf("Enter marks of subjects\n");  
+    for(i = 0; i < subjects; i++){
+     scanf("%f", &marks);
+     total += marks; 
+    }  
+    averageMarks = total / subjects;
+    
+   
+    printf("Total Marks of %d Subjects = %0.4f\n",subjects,total);  
+    printf("Average Marks = %.4f\n", averageMarks);  
+     
+    return 0;  
+} 
+
 
